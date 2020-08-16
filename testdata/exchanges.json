@@ -1,0 +1,19 @@
+{
+    "result": [
+      {
+        "id": 17,
+        "symbol": "mexbt",
+        "name": "meXBT",
+        "route": "https://api.cryptowat.ch/exchanges/mexbt",
+        "active": false
+      },
+      {
+        "id": 62,
+        "symbol": "coinone",
+        "name": "Coinone",
+        "route": "https://api.cryptowat.ch/exchanges/coinone",
+        "active": true
+      }
+    ],
+    "allowance":{"cost":684335,"remaining":3971498809,"remainingPaid":0,"upgrade":"For unlimited API access, create an account at https://cryptowat.ch"}
+  }
