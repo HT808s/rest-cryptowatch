@@ -13,7 +13,7 @@ jobs:
       - name: Lint
         run: |
            curl -sSfL https://raw.githubusercontent.com/golangci/golangci-lint/master/install.sh | BINARY=golangci-lint sh -s -- -b $(go env GOPATH)/bin v1.23.8
-           golangci-lint run --deadline 5m0s --print-resources-usage -v --enable=misspell --enable=unconvert
+           /home/runner/go/bin/golangci-lint/golangci-lint run --deadline 5m0s --print-resources-usage -v --enable=misspell --enable=unconvert
 
 
       # This step prints an output (time) from the previous step's action.
