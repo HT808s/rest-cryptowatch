@@ -4,9 +4,7 @@ on: [push]
 
 jobs:
   build:
-    # Job name is Greeting
-    name: Greeting
-    # This job runs on Linux
+    name: Integration
     runs-on: ubuntu-latest
     steps:
       - name: Setup Go environment
