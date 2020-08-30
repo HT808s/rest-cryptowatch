@@ -3,7 +3,7 @@ package cryptowatch
 import "context"
 
 // List of supported exchanges.
-//nolint:varcheck
+//nolint:varcheck,deadcode,unused
 const (
 	Bitfinex      = "bitfinex"
 	CoinbasePro   = "coinbase-pro"
