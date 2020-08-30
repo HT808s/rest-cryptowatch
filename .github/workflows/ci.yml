@@ -3,21 +3,10 @@ name: CI
 on: [push]
 
 jobs:
-  build:
-    name: Integration
-    runs-on: ubuntu-latest
-    steps:
-      - name: Setup Go environment
-      - uses: actions/checkout@v2
-      - uses: actions/setup-go@v2
-        with:
-          go-version: '^1.14' # The Go version to download (if necessary) and use.
-      - run: go version
-
-
   linter:
     runs-on: ubuntu-latest
     steps:
+      - uses: actions/checkout@v2
       - name: Run golangci-lint
         uses: golangci/golangci-lint-action@v1.2.1
         with:
@@ -26,6 +15,8 @@ jobs:
   testing:
     runs-on: ubuntu-latest
     steps:
+      - uses: actions/setup-go@v2
+      - uses: actions/checkout@v2
       # This step prints an output (time) from the previous step's action.
       - name: unit test
         run: go test -v -cover -race ./...
