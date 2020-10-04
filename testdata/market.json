@@ -1,0 +1,19 @@
+{
+    "result": [
+      {
+        "id": 86,
+        "exchange": "kraken",
+        "pair": "btceur",
+        "active": true,
+        "route": "https://api.cryptowat.ch/markets/kraken/btceur"
+      },
+      {
+        "id": 87,
+        "exchange": "kraken",
+        "pair": "btcusd",
+        "active": true,
+        "route": "https://api.cryptowat.ch/markets/kraken/btcusd"
+      }
+    ],
+    "allowance":{"cost":684335,"remaining":3971498809,"remainingPaid":0,"upgrade":"For unlimited API access, create an account at https://cryptowat.ch"} 
+  }

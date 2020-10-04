@@ -1,0 +1,43 @@
+{
+    "result": {
+      "id": 60,
+      "symbol": "btc",
+      "name": "Bitcoin",
+      "fiat": false,
+      "markets": {
+        "base": [
+          {
+            "id": 181,
+            "exchange": "gemini",
+            "pair": "btcusd",
+            "active": true,
+            "route": "https://api.cryptowat.ch/markets/gemini/btcusd"
+          },
+          {
+            "id": 231,
+            "exchange": "796",
+            "pair": "btcusd-weekly-futures",
+            "active": false,
+            "route": "https://api.cryptowat.ch/markets/796/btcusd-weekly-futures"
+          }
+        ],
+        "quote": [
+          {
+            "id": 5307,
+            "exchange": "gemini",
+            "pair": "ltcbtc",
+            "active": true,
+            "route": "https://api.cryptowat.ch/markets/gemini/ltcbtc"
+          },
+          {
+            "id": 182,
+            "exchange": "gemini",
+            "pair": "ethbtc",
+            "active": true,
+            "route": "https://api.cryptowat.ch/markets/gemini/ethbtc"
+          }
+        ]
+      }
+    },
+    "allowance":{"cost":684335,"remaining":3001498809,"remainingPaid":3232,"upgrade":"For unlimited API access, create an account at https://cryptowat.ch"}
+  }

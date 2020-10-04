@@ -1,0 +1,12 @@
+{
+    "result": {
+      "id": 4,
+      "symbol": "kraken",
+      "name": "Kraken",
+      "active": true,
+      "routes": {
+        "markets": "https://api.cryptowat.ch/markets/kraken"
+      }
+    },
+    "allowance":{"cost":684335,"remaining":3971498809,"remainingPaid":0,"upgrade":"For unlimited API access, create an account at https://cryptowat.ch"}
+  }

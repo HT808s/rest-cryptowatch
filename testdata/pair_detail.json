@@ -1,0 +1,38 @@
+{
+    "result": {
+      "id": 232,
+      "symbol": "btceur",
+      "base": {
+        "id": 60,
+        "symbol": "btc",
+        "name": "Bitcoin",
+        "fiat": false,
+        "route": "https://api.cryptowat.ch/assets/btc"
+      },
+      "quote": {
+        "id": 108,
+        "symbol": "eur",
+        "name": "euro",
+        "fiat": true,
+        "route": "https://api.cryptowat.ch/assets/eur"
+      },
+      "route": "https://api.cryptowat.ch/pairs/btceur",
+      "markets": [
+        {
+          "id": 149,
+          "exchange": "wex",
+          "pair": "btceur",
+          "active": false,
+          "route": "https://api.cryptowat.ch/markets/wex/btceur"
+        },
+        {
+          "id": 367,
+          "exchange": "bisq",
+          "pair": "btceur",
+          "active": true,
+          "route": "https://api.cryptowat.ch/markets/bisq/btceur"
+        }
+      ]
+    },
+    "allowance":{"cost":684335,"remaining":3971498809,"remainingPaid":0,"upgrade":"For unlimited API access, create an account at https://cryptowat.ch"}
+  }

@@ -1,0 +1,24 @@
+name: CI
+# This workflow is triggered on pushes to the repository.
+on: [push]
+
+jobs:
+  linter:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v2
+      - name: Run golangci-lint
+        uses: golangci/golangci-lint-action@v1.2.1
+        with:
+          version: v1.30      
+
+  testing:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/setup-go@v2
+      - uses: actions/checkout@v2
+      # This step prints an output (time) from the previous step's action.
+      - name: unit test
+        run: go test -v -cover -race ./...
+
+

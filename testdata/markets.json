@@ -1,0 +1,20 @@
+{
+    "result": [
+      {
+        "id": 1,
+        "exchange": "bitfinex",
+        "pair": "btcusd",
+        "active": true,
+        "route": "https://api.cryptowat.ch/markets/bitfinex/btcusd"
+      },
+      {
+        "id": 2,
+        "exchange": "bitfinex",
+        "pair": "ltcusd",
+        "active": true,
+        "route": "https://api.cryptowat.ch/markets/bitfinex/ltcusd"
+      }
+    ],
+    "allowance":{"cost":684335,"remaining":3971498809,"remainingPaid":0,"upgrade":"For unlimited API access, create an account at https://cryptowat.ch"} 
+  }
+  
